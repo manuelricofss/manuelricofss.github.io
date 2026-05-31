@@ -103,7 +103,7 @@
       </div>
     </nav>
 
-    {{ content}}
+{{ content }}
 
     <div class="footer">
       <div class="row">
@@ -126,14 +126,15 @@
           <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
             <i class="ai ai-google-scholar"></i>
           </span>
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa-brands fa-x-twitter fa-lg" style="padding-top: 10px"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.bluesky }}')" style="cursor: pointer">
-            <i class="fa-brands fa-bluesky fa-lg" style="padding-top: 10px"></i>
-          </span>
+          &nbsp;
           {% endif %}
+          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+            <i class="fa-brands fa-x-twitter"></i>
+          </span>
+          &nbsp;
+          <span onclick="window.open('{{ site.data.main_info.bluesky }}')" style="cursor: pointer">
+            <i class="fa-brands fa-bluesky"></i>
+          </span>
         </div>
       </div>
     </div>
