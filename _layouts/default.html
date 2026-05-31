@@ -6,11 +6,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Fernando Ruiz Mazo">
-  <meta name="author" content="Fernando Ruiz Mazo">
-  <meta property="og:title" content="Fernando Ruiz Mazo" />
+  <meta name="description" content="Manuel Rico Fernández San Silvestre">
+  <meta name="author" content="Manuel Rico Fernández San Silvestre">
+  <meta property="og:title" content="Manuel Rico Fernández San Silvestre" />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Fernando Ruiz Mazo" />
+  <meta property="og:site_name" content="Manuel Rico Fernández San Silvestre" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -125,6 +125,13 @@
           {% if site.data.main_info.google_scholar != "" %}
           <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
             <i class="ai ai-google-scholar"></i>
+          </span>
+          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+            <i class="fa-brands fa-x-twitter fa-lg" style="padding-top: 10px"></i>
+          </span>
+
+          <span onclick="window.open('{{ site.data.main_info.bluesky }}')" style="cursor: pointer">
+            <i class="fa-brands fa-bluesky fa-lg" style="padding-top: 10px"></i>
           </span>
           {% endif %}
         </div>
